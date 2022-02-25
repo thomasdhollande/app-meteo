@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url("./assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "OpenSans-Regular";
-    src: url("./assets/fonts/OpenSans/OpenSans/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/OpenSans/OpenSans/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "OpenSans-Bold";
-    src: url("./assets/fonts/OpenSans/OpenSans/OpenSans-Bold.ttf") format("truetype");
+    src: url("../fonts/OpenSans/OpenSans/OpenSans-Bold.ttf") format("truetype");
 }
 
 
@@ -29,7 +29,6 @@
 }
 
 html, body {
-    height: auto;
     margin: 0;
     padding: 0;
     color: var(--darkBlue);

@@ -1,0 +1,88 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #353742;
+    width: 15rem;
+    justify-content: center;
+    color: white;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+
+.cardSearch, .cardFavorite {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #353742;
+    width: 30rem;
+    justify-content: center;
+    color: white;
+    gap: 0.5rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-btn-fav {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.card-btn-fav svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.card-infos-description, .card-infos-temporal {
+    font-size: 1.1rem;
+}
+
+.card-infos-temperature {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-infos-country {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-infos-city {
+    font-size: 1.2rem;
+}
+
+.card-infos-temporal {
+    font-weight: bold;
+}
+
+.favorite {
+    margin-top: 6rem;
+}
+
+.forecast h2, .favorite h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.favorite-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media (max-width: 320px) {
+    .card-infos-country {
+        margin-top: 1rem;
+    }
+}

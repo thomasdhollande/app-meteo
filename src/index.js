@@ -9,16 +9,17 @@ import Search from "./views/Search";
 import store from "./store/store";
 import Favorite from './views/Favorite';
 
+// const navigate = useNavigate();
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
         <Routes>
-          <Route path="/" element={<App />}>
-            <Route path="weather" element={<Home />} />
-            <Route path="search" element={<Search />} />
-            <Route path="favorite" element={<Favorite />} />
-          </Route>
+          <Route path="*" element={<Home />} />
+          <Route path="/weather" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/favorite" element={<Favorite />} />
         </Routes>
       </Provider>
     </BrowserRouter>

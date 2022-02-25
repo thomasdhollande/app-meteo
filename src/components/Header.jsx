@@ -13,7 +13,7 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <Link to="/weather" replace>
+              <Link to="/" replace>
                 <img src={iconWeather} className="header-icons" />
               </Link>
             </li>

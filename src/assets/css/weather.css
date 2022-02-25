@@ -30,10 +30,9 @@
 }
 
 .weather-02d, .weather-02n, .weather-03d, .weather-03n, .weather-04d, .weather-04n {
-    /* linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
     background-image: url("../img/clouds.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 50% 75%;
     background-size: cover;
 }
 
@@ -59,7 +58,7 @@
 }
 
 .weather-11d, .weather-11n {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/thunderstorm.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/thunderstorm.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -87,7 +86,7 @@
 }
 
 .weather-50d, .weather-50n {
-    background-image: url("../img/mist.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/mist.png");
     background-repeat: no-repeat;
     background-position: 50% 25%;
     background-size: cover;
@@ -199,9 +198,10 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1104px) {
     .other-infos {
         flex: unset;
+        margin-top: 1rem;
     }
 }
 

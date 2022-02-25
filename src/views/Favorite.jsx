@@ -17,7 +17,6 @@ class Favorites extends Component {
 
     componentDidMount = () => {
         this.setState({ listOfFavorites: this.props.listOfFavorites })
-        console.log(this.props.listOfFavorites)
     }
 
     handleFavorite = (index) => {

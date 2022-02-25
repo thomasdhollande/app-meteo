@@ -37,6 +37,10 @@ html, body {
     font-size: 1.1rem;
 }
 
+body {
+    height: auto !important;
+}
+
 h1 {
     font-size: 6rem;
 }

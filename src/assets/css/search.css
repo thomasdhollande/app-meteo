@@ -1,17 +1,18 @@
 .search {
     margin-top: 6rem;
+    margin-bottom: 2rem;
 }
 
-.searchBar-container {
+.searchBar-container, .searchCard-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .searchBar {
     width: 20rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
 .ant-input {

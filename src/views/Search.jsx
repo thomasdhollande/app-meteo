@@ -51,7 +51,7 @@ export class SearchCity extends Component {
                             <Search placeholder="Saisir une ville" onSearch={this.onSearch} enterButton className="searchBar" />
                         </div>
                         {this.state.weatherByCity && (
-                            <div className="searchBar-container">
+                            <div className="searchCard-container">
                                 <CardSearch
                                     country={this.state.weatherByCity.country}
                                     city={this.state.weatherByCity.city}

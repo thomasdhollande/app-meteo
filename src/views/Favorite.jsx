@@ -41,19 +41,17 @@ class Favorites extends Component {
                         <div className="favorite-container">
                             {this.state.listOfFavorites.map((favorite, index) => {
                                 return (
-                                    <div>
-                                        <CardFavorite
-                                            key={index}
-                                            country={favorite.country}
-                                            city={favorite.city}
-                                            description={favorite.description}
-                                            icon={favorite.icon}
-                                            date={favorite.date}
-                                            hour={favorite.hour}
-                                            temperature={favorite.temperature}
-                                            fav={<StarFilled onClick={() => this.handleFavorite(index)} />}
-                                        />
-                                    </div>
+                                    <CardFavorite
+                                        key={index}
+                                        country={favorite.country}
+                                        city={favorite.city}
+                                        description={favorite.description}
+                                        icon={favorite.icon}
+                                        date={favorite.date}
+                                        hour={favorite.hour}
+                                        temperature={favorite.temperature}
+                                        fav={<StarFilled onClick={() => this.handleFavorite(index)} />}
+                                    />
                                 )
                             })}
                         </div>
